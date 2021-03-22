@@ -14,6 +14,7 @@ public class TestForm {
     }
 
     public static void main(String[] args) {
+
         JFrame frame = new JFrame("Window");
         frame.setContentPane(new TestForm().panelMain);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
